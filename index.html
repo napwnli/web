@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>napwnli :: CTF Team</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="img/napwnli.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="scanlines"></div>
+    <div class="container">
+        <header>
+            <nav class="navbar">
+                <a href="index.html" class="nav-logo">
+                    <img src="img/napwnli.png" alt="napwnli logo">
+                </a>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link active">./home</a></li>
+                    <li><a href="members.html" class="nav-link">./members</a></li>
+                    <li><a href="gallery.html" class="nav-link">./gallery</a></li>
+                    <li><a href="results.html" class="nav-link">./results</a></li>
+                    <li><a href="snake.html" class="nav-link">./snake_game</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </header>
+
+        <main class="terminal-main">
+            <pre class="ascii-art">
+        _  _     ___      ___ __      ___  _     _       ___   
+        | \| |   /   \    | _ \\ \    / / \| |   | |     |_ _|  
+        | .` |   | - |    |  _/ \ \/\/ /| .` |   | |__    | |   
+        |_|\_|   |_|_|   _|_|_   \_/\_/ |_|\_|   |____|  |___|  
+        _|"""""|_|"""""|_| """ |_|"""""|_|"""""|_|"""""|_|"""""| 
+        "`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-' 
+            </pre>
+            <div class="intro-text">
+                <span class="prompt">$</span> <span id="typing"></span><span class="cursor">_</span>
+            </div>
+
+            <section id="about" class="terminal-section">
+                <h2><span class="prompt">$</span> cat ./about.txt</h2>
+                <p>
+                    > napwnli was forged in 2024 from the collective talent of the finalists from the Naples team of the Cyber Challenge Italy. We are a passionate group of cybersecurity enthusiasts dedicated to solving complex challenges and competing at the highest level in Capture The Flag (CTF) competitions worldwide.
+                </p>
+            </section>
+
+            <section id="sponsors" class="terminal-section">
+                <h2><span class="prompt">$</span> ls -l ./sponsors/</h2>
+                <div class="sponsors-grid">
+                    <div class="sponsor-item">
+                        <a href="https://www.unina.it/" target="_blank" rel="noopener noreferrer">
+                        <img src="img/f2.png" alt="Sponsor 1 Logo" class="terminal-image-effect">
+                        <p>Federico_II_University</p>
+                        </a>
+                    </div>
+                    <div class="sponsor-item">
+                        <a href="https://brigatanerd.it/" target="_blank" rel="noopener noreferrer">
+                        <img src="img/bn.png" alt="Sponsor 2 Logo" class="terminal-image-effect">
+                        <p>Brigata nerd</p>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <section id="news" class="terminal-section">
+                <h2><span class="prompt">$</span> tail -f ./logs/media.log</h2>
+                <div class="log-feed">
+                    <p>[INFO] Journal_Title - "napwnli showcases exceptional talent..." <a href="#">[link]</a></p>
+                    <p>[INFO] Tech_Blog - "The rise of a new CTF powerhouse from Naples..." <a href="#">[link]</a></p>
+                    <p>[INFO] Cybersecurity_Weekly - "An interview with the minds behind napwnli..." <a href="#">[link]</a></p>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+    <div class="socials">
+        <a href="https://github.com/napwnli" title="GitHub" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="#" title="LinkedIn" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/napwnli/" title="Instagram" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+    </div>
+    <p>Status: 200 OK. Session active.</p>
+</footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

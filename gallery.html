@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>napwnli :: ./gallery</title>
+    <link rel="icon" type="image/png" href="img/napwnli.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="scanlines"></div>
+    <div class="container">
+        <header>
+            <nav class="navbar">
+                <a href="index.html" class="nav-logo">
+                    <img src="img/napwnli.png" alt="napwnli logo">
+                </a>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">./home</a></li>
+                    <li><a href="members.html" class="nav-link">./members</a></li>
+                    <li><a href="gallery.html" class="nav-link active">./gallery</a></li>
+                    <li><a href="results.html" class="nav-link">./results</a></li>
+                    <li><a href="snake.html" class="nav-link">./snake_game</a></li>
+                </ul>
+                 <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <section class="terminal-section">
+                <h2><span class="prompt">$</span> ./view_images.sh</h2>
+                 <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="https://via.placeholder.com/400x300/1" alt="Gallery image 1">
+                        <p>cyber_challenge_finals.jpg</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://via.placeholder.com/400x300/2" alt="Gallery image 2">
+                        <p>team_at_work.png</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://via.placeholder.com/400x300/3" alt="Gallery image 3">
+                        <p>whiteboard_session.jpg</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://via.placeholder.com/400x300/4" alt="Gallery image 4">
+                        <p>late_night_pwn.gif</p>
+                    </div>
+                 </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="socials">
+                <a href="#" title="GitHub" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="#" title="LinkedIn" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#" title="Instagram" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <p>Status: 200 OK. Session active.</p>
+        </footer>
+    </div>
+
+    <!-- Il Modal/Lightbox per il fullscreen -->
+    <div id="imageModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
