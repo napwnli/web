@@ -64,7 +64,13 @@ body {
     text-decoration: none; 
     transition: all 0.3s ease; 
     padding: 5px; 
-    font-size: 0.9rem; 
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+}
+
+.nav-link i {
+    margin-right: 8px;
 }
 
 .nav-link:hover, .nav-link.active { 
@@ -380,8 +386,43 @@ footer {
 
 @media (max-width: 768px) {
     .ascii-art {
-        font-size: 0.7rem;
+        font-size: 0.5rem;
         overflow-x: auto;
         white-space: pre;
     }
+}
+
+.press-kit-listing h3 {
+    color: var(--secondary-color);
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    font-weight: normal;
+}
+
+.download-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid transparent;
+    transition: all 0.2s ease-in-out;
+}
+
+.download-item:hover {
+    background-color: rgba(0, 224, 224, 0.1); /* Faint glow effect */
+    border-color: var(--text-color);
+}
+
+.download-item a {
+    text-decoration: none;
+}
+
+.download-item a i {
+    margin-right: 15px;
+}
+
+.download-item span {
+    color: var(--secondary-color);
+    font-style: italic;
+    font-size: 0.9rem;
 }
