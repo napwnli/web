@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const typingElement = document.getElementById('typing');
     if (typingElement) {
-        const textToType = "Welcome to the napwnli terminal. We are a Neapolitan CTF Team.";
+        const textToType = "Welcome to the napwnli terminal, the most advanced napwnletan tool.";
         let index = 0;
 
         function type() {

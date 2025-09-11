@@ -377,3 +377,11 @@ footer {
     text-decoration: none;
     cursor: pointer;
 }
+
+@media (max-width: 768px) {
+    .ascii-art {
+        font-size: 0.7rem;
+        overflow-x: auto;
+        white-space: pre;
+    }
+}
