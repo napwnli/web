@@ -392,34 +392,6 @@ footer {
     }
 }
 
-.press-kit-listing h3 {
-    color: var(--secondary-color);
-    margin-top: 2rem;
-    margin-bottom: 0.5rem;
-    font-weight: normal;
-}
-
-.download-item {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    border: 1px solid transparent;
-    transition: all 0.2s ease-in-out;
-}
-
-.download-item:hover {
-    background-color: rgba(0, 224, 224, 0.1); /* Faint glow effect */
-    border-color: var(--text-color);
-}
-
-.download-item a {
-    text-decoration: none;
-}
-
-.download-item a i {
-    margin-right: 15px;
-}
 
 .download-item span {
     color: var(--secondary-color);
