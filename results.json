@@ -1,0 +1,53 @@
+{
+  "2026": [
+    { "event": "MntcrlCTF 2026",          "date": "June 2026",      "category": "Jeopardy", "rank": "4th"  },
+    { "event": "bhackari CTF 2026",        "date": "June 2026",      "category": "Jeopardy", "rank": "15th" },
+    { "event": "From Dusk Till Dawn Quals","date": "May 2026",       "category": "Jeopardy", "rank": "75th" },
+    { "event": "TRX CTF 2026",             "date": "April 2026",     "category": "Jeopardy", "rank": "114th"},
+    { "event": "K!nd4SUS CTF 2026",        "date": "April 2026",     "category": "Jeopardy", "rank": "22nd" },
+    { "event": "DiceCTF 2026 Quals",       "date": "March 2026",     "category": "Jeopardy", "rank": "226th"},
+    { "event": "Srdnlen CTF 2026 Quals",   "date": "February 2026",  "category": "Jeopardy", "rank": "104th"},
+    { "event": "Batman's Kitchen CTF 2026","date": "February 2026",  "category": "Jeopardy", "rank": "73rd" },
+    { "event": "0xFUN CTF 2026",           "date": "January 2026",   "category": "Jeopardy", "rank": "318th"},
+    { "event": "LA CTF 2026",              "date": "January 2026",   "category": "Jeopardy", "rank": "238th"}
+  ],
+  "2025": [
+    { "event": "niteCTF 2025",             "date": "December 2025",  "category": "Jeopardy", "rank": "208th"},
+    { "event": "PwnSec CTF 2025",          "date": "December 2025",  "category": "Jeopardy", "rank": "32nd" },
+    { "event": "N1CTF 2025",               "date": "November 2025",  "category": "Jeopardy", "rank": "348th"},
+    { "event": "m0leCon CTF 2026 Teaser",  "date": "November 2025",  "category": "Jeopardy", "rank": "124th"},
+    { "event": "Hack.lu CTF 2025",         "date": "October 2025",   "category": "Jeopardy", "rank": "58th" },
+    { "event": "Securinets CTF Quals 2025","date": "October 2025",   "category": "Jeopardy", "rank": "122nd"},
+    { "event": "SunshineCTF 2025",         "date": "October 2025",   "category": "Jeopardy", "rank": "44th" },
+    { "event": "Ctrl+Space CTF Quals",     "date": "October 2025",   "category": "Jeopardy", "rank": "30th" },
+    { "event": "Pointer Overflow CTF 2025","date": "October 2025",   "category": "Jeopardy", "rank": "29th" },
+    { "event": "FortID CTF 2025",          "date": "September 2025", "category": "Jeopardy", "rank": "7th"  },
+    { "event": "snakeCTF 2025 Quals",      "date": "September 2025", "category": "Jeopardy", "rank": "34th" },
+    { "event": "Startpwn CTF 2025",        "date": "August 2025",    "category": "Jeopardy", "rank": "36th" },
+    { "event": "idekCTF 2025",             "date": "August 2025",    "category": "Jeopardy", "rank": "61st" },
+    { "event": "UIUCTF 2025",              "date": "July 2025",      "category": "Jeopardy", "rank": "89th" },
+    { "event": "DownUnderCTF 2025",        "date": "July 2025",      "category": "Jeopardy", "rank": "178th"},
+    { "event": "L3akCTF 2025",             "date": "June 2025",      "category": "Jeopardy", "rank": "63rd" },
+    { "event": "Google CTF 2025",          "date": "June 2025",      "category": "Jeopardy", "rank": "182nd"},
+    { "event": "cornCTF 2025",             "date": "June 2025",      "category": "Jeopardy", "rank": "7th"  },
+    { "event": "Ulisse CTF 2025",          "date": "April 2025",     "category": "Jeopardy", "rank": "7th"  },
+    { "event": "K!nd4SUS CTF 2025",        "date": "March 2025",     "category": "Jeopardy", "rank": "5th"  },
+    { "event": "TRX CTF 2025",             "date": "February 2025",  "category": "Jeopardy", "rank": "27th" },
+    { "event": "Srdnlen CTF 2025 Quals",   "date": "January 2025",   "category": "Jeopardy", "rank": "48th" }
+  ],
+  "2024": [
+    { "event": "HTB University CTF 2024",  "date": "December 2024",  "category": "Jeopardy", "rank": "831st"},
+    { "event": "Crate-CTF 2024",           "date": "November 2024",  "category": "Jeopardy", "rank": "34th" },
+    { "event": "FAUST CTF 2024",           "date": "July 2024",      "category": "Attack-Defense", "rank": "43rd" },
+    { "event": "PatriotCTF 2024",          "date": "September 2024", "category": "Jeopardy", "rank": "27th" },
+    { "event": "Pointer Overflow CTF 2024","date": "September 2024", "category": "Jeopardy", "rank": "31st" },
+    { "event": "m0leCon CTF 2025 Teaser",  "date": "November 2024",  "category": "Jeopardy", "rank": "54th" },
+    { "event": "snakeCTF 2024 Quals",      "date": "November 2024",  "category": "Jeopardy", "rank": "45th" },
+    { "event": "LIT CTF 2024",             "date": "August 2024",    "category": "Jeopardy", "rank": "90th" },
+    { "event": "CTFZone 2024 Quals",       "date": "September 2024", "category": "Jeopardy", "rank": "88th" },
+    { "event": "n00bzCTF 2024",            "date": "August 2024",    "category": "Jeopardy", "rank": "22nd" },
+    { "event": "corCTF 2024",              "date": "August 2024",    "category": "Jeopardy", "rank": "61st" },
+    { "event": "ENOWARS 8",                "date": "July 2024",      "category": "Attack-Defense", "rank": "74th" },
+    { "event": "HITCON CTF 2024 Quals",    "date": "July 2024",      "category": "Jeopardy", "rank": "259th"}
+  ]
+}
